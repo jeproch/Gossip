@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(45, 45, 56);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.inputs input {
+  margin-bottom: 10px;
+  background-color: gray;
+  border-radius: 3%;
+  width: 300px;
+  height: 70px;
+  border: none;
+  outline: black;
+  color: rgb(39, 39, 39);
+}
+
+.inputs input::placeholder {
+  color: rgb(65, 65, 65);
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19vh;
+}
+
+.submit-btn button {
+  background-color: rgb(99, 99, 99);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.submit-btn button:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #555;
+}
